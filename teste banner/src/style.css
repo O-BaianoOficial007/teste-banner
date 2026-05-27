@@ -1,0 +1,85 @@
+:root{
+    --text: #ffffff;
+    --darkred: #7F2020;
+    --lorange: #DDA15E;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--lorange);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+.nav1{
+    font-family: "Dancing Script", cursive;
+    margin: 20px;
+    font-size: 30px;
+}
+.nav2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    display: flex;
+    margin: 20px;
+    
+}
+.navItens{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navItens:hover{
+    cursor: pointer;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+section{
+    min-height: 75vh;
+    height: 75vh;
+}
+#s1{
+    background-image: url('../assets/salainformatica-1.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#s1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: var(--text);
+}
+#s2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#s2 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 50px;
+}
+#s2 p{
+    margin: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
